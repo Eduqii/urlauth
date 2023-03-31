@@ -92,7 +92,8 @@ signInWithPopup(auth, provider)
 
 
     // alert(user.displayName);
-    document.write(user.photoURL + "\n" + user.displayName);
+    document.write(user.photoURL);
+    document.write(user.displayName);
     // ...
   }).catch((error) => {
     // Handle Errors here.
