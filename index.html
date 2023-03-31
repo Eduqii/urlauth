@@ -27,7 +27,7 @@
 </div>
 </body>
 
-<script type="module">
+<!-- <script type="module">
   // Import the functions you need from the SDKs you need
   import { initializeApp } from "https://www.gstatic.com/firebasejs/9.19.0/firebase-app.js";
   import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.19.0/firebase-analytics.js";
@@ -78,12 +78,13 @@
        // ...
        
   });
-</script>
+</script> -->
 
-<!-- <script type="module">
-  // Import the functions you need from the SDKs you need
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.4.1/firebase-app.js";
-  import { getAuth ,GoogleAuthProvider, signInWithRedirect, getRedirectResult, signInWithPopup, signOut } from "https://www.gstatic.com/firebasejs/9.4.1/firebase-auth.js";
+ <script type="module">
+ // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.19.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.19.0/firebase-analytics.js";
+  import { getAuth ,GoogleAuthProvider, signInWithRedirect, getRedirectResult, signInWithPopup, signOut } from "https://www.gstatic.com/firebasejs/9.19.0/firebase-auth.js";
 
   // TODO: Add SDKs for Firebase products that you want to use
   // https://firebase.google.com/docs/web/setup#available-libraries
@@ -91,6 +92,13 @@
   // Your web app's Firebase configuration
   const firebaseConfig = {
   // your config code
+    apiKey: "AIzaSyANsq2HUH9f93kVBS9X7c6PU7FBaj6d3IU",
+    authDomain: "ultracklist.firebaseapp.com",
+    projectId: "ultracklist",
+    storageBucket: "ultracklist.appspot.com",
+    messagingSenderId: "766355122033",
+    appId: "1:766355122033:web:71eaf59bc09e7557bf38d0",
+    measurementId: "G-PV6DR53SVM"
   };
 
   // Initialize Firebase
@@ -161,6 +169,5 @@ signInWithPopup(auth, provider)
 
   });
 
-</script> -->
-
+</script> 
 </html>
