@@ -96,6 +96,8 @@ signInWithPopup(auth, provider)
 
     // alert(user.displayName);
     // document.write(user.photoURL);
+    document.write("<P>");
+    document.write("<p><center> Successfully Subscribed! </center></p>");
     document.write("Welcome " + user.displayName);
     document.write("<BR>");
     document.write("Subscribed as: " + user.email);
@@ -104,6 +106,7 @@ signInWithPopup(auth, provider)
     document.write("You would be able to change the profile pic to your prefered image once you switch to Premium plus.");
     document.write("<BR>");
     document.write("<i>" + "click on the x button to close this window." + "</i>");
+    document.write("</P>");
     // ...
   }).catch((error) => {
     // Handle Errors here.
